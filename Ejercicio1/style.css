@@ -1,0 +1,45 @@
+.mi-contenedor{
+    align-content: center;
+    background-color: #0b3863;
+    border: 1px solid #2b2f5e;
+    padding: 20px;
+}
+.titulo, .titulo2 {
+    text-align: center;
+    color: aquamarine;
+}
+.respuestas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; Ajusta la altura si lo necesitas */
+    background-color: rgb(67, 134, 160);
+    border: 1px solid #2b2f5e;
+    padding: 50px;
+}
+#estado{
+    width: 200px;
+    border: 2px solid #081d01;
+
+}
+#boton {
+  border: 2px solid #2a8310;
+  height: 30px;
+  background-color: #139c63b7;
+  font-weight: bold;
+  
+}
+#botonReset{
+    border: 2px solid #6e8310;
+    height: 30px;
+    background-color: #f7a902;
+    font-weight: bold;
+}
+.result{
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    background-color: aquamarine;
+    font-weight: bold;
+    color: #087957;
+}
